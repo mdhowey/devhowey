@@ -1,0 +1,31 @@
+@import "../sass/index";
+
+.main-tagline-container {
+    @include flex-center;
+    flex-direction: column;
+
+    #main__name {
+        font-size: $ft-xxl;
+        margin: 0;
+        #main__name__link {
+            @include title;
+        }
+    }
+    #main__title {
+        font-size: $ft-xl;
+        font-family: $cairo;
+        font-weight: 900;
+        margin-bottom: $sp-md;
+        color: rgba($dark, 0.8);
+    }
+    #main__tagline {
+        font-family: $cairo;
+        font-weight: 700;
+        line-height: $sp-lg;
+        text-transform: lowercase;
+        margin: 0 $sp-xl $sp-xl $sp-xl;
+        text-align: center;
+        color: rgba($green, 0.6);
+        width: 50%;
+    }
+}

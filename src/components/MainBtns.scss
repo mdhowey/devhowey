@@ -1,0 +1,21 @@
+@import "../sass/index";
+
+.row {
+    @include flex-center;
+    .btn-container {
+        @include flex-center;
+        margin-bottom: 2rem;
+        .btn-wrapper {
+            @include flex-center;
+            padding: 0 2rem;
+            .main-hero-btn-primary {
+                @include btn;
+                @include primary;
+            }
+            .main-hero-btn-secondary {
+                @include btn;
+                @include secondary;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import "../sass/index";
+
+#header {
+    @include flex-center;
+    height: 30px;
+    background: transparent;
+    font-family: $cairo;
+    .header-inner {
+        @include flex-center;
+        .nav-wrapper {
+            @include flex-center;
+            #main__navigation {
+                @include flex-center;
+                .nav-item {
+                    margin: 0;
+                    a {
+                        @include nav-item;
+                    }
+                }
+            }
+        }
+    }
+}
