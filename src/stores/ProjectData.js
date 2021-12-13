@@ -5,8 +5,8 @@ export const ProjectData = [
         tech: "React, Express, Node.js, MongoDB",
     },
     {
-        title: "Seagull",
-        description: "Another social media platform for sharing and reading up on travel tips for various cities. There is full user authentication functionality as well as basic CRUD.",
+        title: "Wayfarer",
+        description: "A social media platform for sharing and reading up on travel tips for various cities. There is full user authentication functionality as well as basic CRUD.",
         tech: "Python, Django, PostgreSQL",
     },
     {

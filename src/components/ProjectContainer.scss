@@ -38,9 +38,35 @@ h2 {
         flex-direction: column;
         font-family: $cairo;
         overflow: hidden;
+        position: relative;
             & h3 {
                 font-size: $ft-lg;
                 color: rgba($green, 0.7);
+            }
+            .icon-container {
+                position: absolute;
+                right: 0;
+                top: 7%;
+                margin-right: $sp-md;
+                font-size: $ft-lg;
+                cursor: none;
+                & .isDisabled {
+                    color: currentColor;
+                    cursor: not-allowed;
+                    opacity: 0.5;
+                    text-decoration: none;
+                }
+                & a {
+                    transition: all ease 0.3s;
+                    text-decoration: none;
+                    color: rgba($dark, 0.5);
+                    &:first-of-type {
+                        margin-right: $sp-sm;
+                    }
+                    &:hover {
+                        color: $dkpink;
+                    }
+                }
             }
             & p {
                 font-size: $ft-md;
