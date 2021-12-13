@@ -1,0 +1,14 @@
+@import "../sass/index";
+
+#resume-section {
+    @include flex-center;
+    margin: $sp-xxl 0;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    h3 {
+        @include btn;
+        @include primary;
+    }
+}

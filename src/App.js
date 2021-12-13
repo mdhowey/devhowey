@@ -3,6 +3,7 @@ import "./App.scss";
 import AboutContainer from "./components/AboutContainer";
 import Cactus from "./components/Cactus";
 import { ProjectContainer } from "./components/ProjectContainer";
+import Resume from "./components/Resume";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <AboutContainer />
             <Cactus />
             <ProjectContainer />
+            <Resume />
         </div>
     );
 }

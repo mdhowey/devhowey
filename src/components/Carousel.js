@@ -26,7 +26,7 @@ const Carousel = ({ imgs }) => {
                             key={index}
                         >
                             {index === current && (
-                                <img src={img.src} alt={img.alt} className='image' />
+                                <img src={img.src} alt={img.alt} className="project-img" />
                             )}
                         </div>
                     );
