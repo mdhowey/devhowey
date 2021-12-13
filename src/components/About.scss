@@ -1,0 +1,26 @@
+@import "../sass/index";
+
+.about-section {
+    max-width: 700px;
+    height: auto;
+    font-family: $cairo;
+    padding: $sp-sm $sp-xl;
+    color: rgba($dark, 0.8);
+    .about-title {
+        text-transform: uppercase;
+        margin-bottom: $sp-md;
+    }
+    .about-information {
+        font-size: $ft-md;
+        #drums {
+            text-decoration: none;
+            color: $green;
+            &:hover {
+                color: $dkpink;
+            }
+            &:active {
+                color: $dark;
+            }
+        }
+    }
+}

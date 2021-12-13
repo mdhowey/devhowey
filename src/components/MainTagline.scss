@@ -7,6 +7,7 @@
     #main__name {
         font-size: $ft-xxl;
         margin: 0;
+        margin-top: $sp-xl;
         #main__name__link {
             @include title;
         }
@@ -15,8 +16,10 @@
         font-size: $ft-xl;
         font-family: $cairo;
         font-weight: 900;
-        margin-bottom: $sp-md;
-        color: rgba($dark, 0.8);
+        margin: 0 $sp-lg $sp-md $sp-lg;
+        text-align: center;
+        border-radius: $btnRad;
+        color: $light;
     }
     #main__tagline {
         font-family: $cairo;

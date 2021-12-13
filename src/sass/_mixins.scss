@@ -89,3 +89,14 @@
         color: $light;
     }
 }
+
+@mixin container {
+    @include flex-center;
+    margin: 0;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}

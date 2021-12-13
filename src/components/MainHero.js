@@ -5,11 +5,11 @@ import './MainHero.scss';
 
 const Hero = () => {
     return (
-        <div id="main-hero-container">
-            <MainNav />
+        <section id="main-hero-container">
+            <MainNav/>
             <MainTagline />
             <MainBtns />
-        </div>
+        </section>
     )
 }
 
