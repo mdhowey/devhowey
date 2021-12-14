@@ -2,7 +2,9 @@
 
 #resume-section {
     @include flex-center;
-    margin: $sp-xxl 0;
+    height: 50vh;
+    background: linear-gradient(rgba($dark, 0.1), rgba($dkpink, 0.1));
+    // margin: $sp-xxl 0;
     a {
         text-decoration: none;
         text-transform: uppercase;

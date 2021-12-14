@@ -4,6 +4,7 @@ import AboutContainer from "./components/AboutContainer";
 import Cactus from "./components/Cactus";
 import { ProjectContainer } from "./components/ProjectContainer";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Cactus />
             <ProjectContainer />
             <Resume />
+            <Footer />
         </div>
     );
 }

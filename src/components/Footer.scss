@@ -1,0 +1,49 @@
+@import "../sass/index";
+
+#footer__container {
+    @include container;
+    height: 50vh;
+    background: url(https://cdn.pixabay.com/photo/2015/11/18/17/23/star-anise-1049585_1280.jpg) no-repeat center center fixed;
+    position: relative;
+    .goodbye {
+        position: absolute;
+        top: 20%;
+        font-size: $ft-lg;
+        font-family: $cairo;
+        font-weight: 900;
+        padding: 0 $sp-md;
+        text-align: center;
+        border-radius: $btnRad;
+        background-color: rgba($dark, 0.8);
+        color: $dkpink;
+    }
+    .tagline {
+        position: absolute;
+        top: 40%;
+        font-size: $ft-md;
+        font-family: $cairo;
+        font-weight: 900;
+        text-align: center;
+        padding: 0 $sp-md;
+        border-radius: $btnRad;
+        background-color: rgba($light, 0.8);
+        color: $green;
+    }
+    footer {
+        position: absolute;
+        bottom: 5%;
+        a {
+            @include btn;
+            @include secondary;
+            text-decoration: none;
+            border: none;
+            margin: $sp-sm $sp-md;
+            padding: $sp-xs $sp-sm 0 $sp-sm;
+            font-size: $ft-md;
+            color: $green;
+            :hover {
+                color: $dark;
+            }
+        }
+    }
+}
