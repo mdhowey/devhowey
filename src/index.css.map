@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,OAAO,CAAC,2FAAI;AAGZ,WAAW;AAeX,mBAAmB;AAOnB,aAAa;AASb,WAAW;AHhCX,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,mEAAsD;EAClE,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "index.scss",
+        "sass/_index.scss",
+        "sass/_mixins.scss",
+        "sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

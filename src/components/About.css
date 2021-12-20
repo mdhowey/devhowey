@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&display=swap");
+/* Fonts */
+/* Color Palette */
+/* Spacing */
+/* Other */
+.about-section {
+  max-width: 700px;
+  height: auto;
+  font-family: "Cairo", sans-serif;
+  padding: 8px 64px;
+  color: rgba(63, 63, 63, 0.8);
+}
+
+.about-section .about-title {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.about-section .about-information {
+  font-size: 18px;
+}
+
+.about-section .about-information #drums {
+  text-decoration: none;
+  color: #4db890;
+}
+
+.about-section .about-information #drums:hover {
+  color: #ffb8d3;
+}
+
+.about-section .about-information #drums:active {
+  color: #3f3f3f;
+}
+/*# sourceMappingURL=About.css.map */

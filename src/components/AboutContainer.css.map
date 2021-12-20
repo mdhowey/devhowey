@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,OAAO,CAAC,2FAAI;AAGZ,WAAW;AAeX,mBAAmB;AAOnB,aAAa;AASb,WAAW;AHhCX,AAAA,gBAAgB,CAAC;EEDb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EAyFV,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,KAAK;EACb,uBAAuB,EAAE,KAAK;EAC9B,oBAAoB,EAAE,KAAK;EAC3B,kBAAkB,EAAE,KAAK;EACzB,eAAe,EAAE,KAAK;EACtB,QAAQ,EAAE,MAAM;EFhGhB,MAAM,EAAE,IAAI;EACZ,OAAO,EGyBH,IAAI,CHzBQ,CAAC;EACjB,UAAU,EAAE,kEAA0D;CACzE",
+    "sources": [
+        "AboutContainer.scss",
+        "../sass/_index.scss",
+        "../sass/_mixins.scss",
+        "../sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "AboutContainer.css"
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&display=swap");
+/* Fonts */
+/* Color Palette */
+/* Spacing */
+/* Other */
+.carousel {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 250px;
+}
+
+.carousel .carousel-btn {
+  color: rgba(77, 184, 144, 0.5);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  z-index: 900;
+  background-color: rgba(63, 63, 63, 0.1);
+  border-radius: 8px;
+  padding: 0 8px 4px 8px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.carousel .carousel-btn:hover {
+  color: #ffd5d4;
+  background-color: rgba(63, 63, 63, 0.5);
+}
+
+.carousel .carousel-btn.prev {
+  left: -2rem;
+}
+
+.carousel .carousel-btn.next {
+  right: -2rem;
+}
+
+.carousel > ul {
+  list-style: none;
+}
+
+.carousel .project-img {
+  max-width: 250px;
+  max-height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel .slide {
+  opacity: 0;
+  -webkit-transition-duration: 1s ease;
+          transition-duration: 1s ease;
+}
+
+.carousel .slide.active {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+/*# sourceMappingURL=Carousel.css.map */

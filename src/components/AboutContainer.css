@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&display=swap");
+/* Fonts */
+/* Color Palette */
+/* Spacing */
+/* Other */
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  height: auto;
+  padding: 32px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 91, 89, 0.145)), to(rgba(255, 213, 212, 0.3)));
+  background: linear-gradient(rgba(92, 91, 89, 0.145), rgba(255, 213, 212, 0.3));
+}
+/*# sourceMappingURL=AboutContainer.css.map */
