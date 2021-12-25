@@ -15,20 +15,21 @@
     #main__title {
         font-size: $ft-xl;
         font-family: $cairo;
-        font-weight: 900;
+        font-weight: 500;
+        text-transform: lowercase;
         margin: 0 $sp-lg $sp-md $sp-lg;
         text-align: center;
         border-radius: $btnRad;
-        color: rgba($dark,0.5);
+        color: $dark;
     }
     #main__tagline {
         font-family: $cairo;
         font-weight: 700;
         line-height: $sp-lg;
-        text-transform: lowercase;
+        text-transform: lowercase;  
         margin: 0 $sp-xl $sp-xl $sp-xl;
         text-align: center;
-        color: $green;
+        color: rgba($dark,0.8);
         width: 50%;
     }
 }

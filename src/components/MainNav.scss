@@ -7,8 +7,11 @@
     font-family: $cairo;
     .header-inner {
         position: fixed;
-        background: $light;
-        z-index: 999;
+        padding: $sp-sm;
+        background: $green;
+        border-bottom-left-radius: $sp-sm;
+        border-bottom-right-radius: $sp-sm;
+        z-index: 1000;
         .nav-wrapper {
             @include flex-center;
             #main__navigation {
