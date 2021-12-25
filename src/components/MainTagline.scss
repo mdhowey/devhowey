@@ -5,7 +5,7 @@
     flex-direction: column;
 
     #main__name {
-        font-size: $ft-xxl;
+        font-size: $ft-xxx;
         margin: 0;
         margin-top: $sp-xl;
         #main__name__link {
@@ -19,7 +19,7 @@
         margin: 0 $sp-lg $sp-md $sp-lg;
         text-align: center;
         border-radius: $btnRad;
-        color: $light;
+        color: rgba($dark,0.5);
     }
     #main__tagline {
         font-family: $cairo;
@@ -28,7 +28,7 @@
         text-transform: lowercase;
         margin: 0 $sp-xl $sp-xl $sp-xl;
         text-align: center;
-        color: rgba($green, 0.6);
+        color: $green;
         width: 50%;
     }
 }

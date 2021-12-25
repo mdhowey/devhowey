@@ -20,9 +20,13 @@
   font-family: "Cairo", sans-serif;
 }
 
+#header .header-inner {
+  position: fixed;
+  background: white;
+  z-index: 999;
+}
+
 #header .header-inner .nav-wrapper {
-  position: -webkit-sticky;
-  position: sticky;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

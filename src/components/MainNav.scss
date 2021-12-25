@@ -6,8 +6,10 @@
     background: transparent;
     font-family: $cairo;
     .header-inner {
+        position: fixed;
+        background: $light;
+        z-index: 999;
         .nav-wrapper {
-            position: sticky;
             @include flex-center;
             #main__navigation {
                 @include flex-center;
