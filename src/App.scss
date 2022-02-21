@@ -1,3 +1,5 @@
+@import "./sass/index";
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -8,3 +10,19 @@ html {
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    background: $green;
+    color: $light;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+    :hover{
+        color: red;
+    }
+  }
